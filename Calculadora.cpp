@@ -20,7 +20,7 @@ char keys[ROWS][COLS] = { // Define linhas e colunas
   {'7', '8', '9', '-'},
   {'*', '0', '=', '/'}
 };
-bool SmartDoor = true; // motor
+bool SmartDoor = true;
 // os pinos para conectar no teclado
 byte rowPins[ROWS] = {10, 9, 8, 7};
 byte colPins[COLS] = {3, 4, 5, 6};
@@ -32,7 +32,7 @@ void setup()
   lcd.init(); // Inicia o display
   lcd.backlight(); // liga a luz de fundo do lcd
   lcd.setCursor(2, 0); // define o cursor no lcd
-  lcd.print("Calculadora"); // prints the text/charater
+  lcd.print("Calculadora"); // imprime o texto
   lcd.setCursor(1, 1); // define o cursor no lcd
   lcd.print("Andressa-611M2"); // imprime o texto
   delay(2500); // Espera
