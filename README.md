@@ -1,2 +1,2 @@
 # Projeto-Calculadora-C
- Calculadora + Arduino
+***Projeto desenvolvido no Módulo I - Eletrônica*** 
