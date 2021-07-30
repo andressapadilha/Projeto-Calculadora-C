@@ -3,7 +3,7 @@
 
 *** NOTAS DE USO
 
- Componentes necessários:
+ Componentes necessários para a calculadora física:
  - Display 16x4
  - Jumpers
  - Teclado Matricial 4x4
